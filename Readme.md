@@ -14,6 +14,17 @@
 7. Class Creation
 8. Working with STDIN and STDOUT
 
+## Using the generators
+
+* Perl: (a default install on Mac OS X and Linux) 
+`perl gen.pl <language>`
+
+* Bash: WIP
+* Python: WIP
+* Node: WIP
+* PowerShell: WIP
+* batch: WIP
+
 ## A Project that demonstrates all of the above
 
 ### Create a phone directory:
