@@ -38,25 +38,3 @@
  * Phone number lookup with name as key
 
 * Delete and Update a Record and its fields
-
-
-## To Do:
-1. Create Templates of all steps
-2. Create generator that adds folder with all templates
-
-##Template Directory Structure
-
-Each sub directory will have their info as a readme
-
-* LANG DIR
- * ReadMe.md
- * SETUP DIR
- * VAR DIR
- * PROGRAMMING STRUCTURE DIR
- * DATA STRUCTURE DIR
- * CONDITIONAL DIR
- * LOOP DIR
- * FUNCTION DIR
- * CLASS DIR
- * STD* DIR
- * PROJECT DIR 
