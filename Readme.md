@@ -18,7 +18,7 @@
 
 * Perl: (a default install on Mac OS X and Linux) 
 
-`perl gen.pl <language>`
+	`perl gen.pl <language>`
 * Bash: WIP
 * Python: WIP
 * Node: WIP
