@@ -34,7 +34,7 @@ for my $i (0 .. $#folderNames){
 		if($cDir =~ /project/){
 			copy t('P'), $readme;
 		} else {
-			copy t($i), $readme;
+			copy t($i+1), $readme;
 		}
 	}
 }
