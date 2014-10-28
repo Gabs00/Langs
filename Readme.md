@@ -42,7 +42,7 @@
 
 ## To Do:
 1. Create Templates of all steps
-2. Create generator that adds folder with all templates
+
 
 ##Template Directory Structure
 
