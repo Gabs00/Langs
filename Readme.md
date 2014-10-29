@@ -13,7 +13,7 @@
  * [**_Contributing_**](#contributing)
  * [**_About_**](#about)
  
-#### Project Status: [WIP]("Almost There")
+#### Project Status: WIP
 
 
 ## <a name="instructions"></a>Instructions
