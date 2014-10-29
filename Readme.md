@@ -77,19 +77,3 @@
 * **Notes? Why Notes?:** Because we forget things. Especially when we don't do them very often. I'v learned a few programming languages in the past, but due to not using them, I've mostly forgotten how to use them. I've started taking notes on everything now. If it seems useful, I create a secret gist.
 * **About Me:** [Hello I'm Gabar](www.gabar.us), Twitter: @Gabs00 
  
-##<a name="template"></a>Template Directory Structure
-
-Each sub directory will have their info as a readme
-
-* LANG DIR
- * ReadMe.md
- * SETUP DIR
- * VAR DIR
- * PROGRAMMING STRUCTURE DIR
- * DATA STRUCTURE DIR
- * CONDITIONAL DIR
- * LOOP DIR
- * FUNCTION DIR
- * CLASS DIR
- * STD* DIR
- * PROJECT DIR 
