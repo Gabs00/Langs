@@ -72,6 +72,10 @@
  * _SPREADING THE WORD__
 
 ##<a name="about"></a>About
+> #### LearnTheseThings
+* **Purpose:** A way to learn the basics of a language, and keep nuggets of information as refreshers when needed.
+* **Notes? Why Notes?:** Because we forget things. Especially when we don't do them very often. I'v learned a few programming languages in the past, but due to not using them, I've mostly forgotten how to use them. I've started taking notes on everything now. If it seems useful, I create a secret gist.
+* **About Me:** [Hello I'm Gabar](www.gabar.us), Twitter: @Gabs00 
  
 ##<a name="template"></a>Template Directory Structure
 
