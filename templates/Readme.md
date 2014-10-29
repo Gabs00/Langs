@@ -8,7 +8,7 @@
 6. Looping Structures
 7. Functions / Subroutines / Methods
 7. Class Creation
-8. Working with STDIN and STDOUT
+8. Working with STDIN, STDOUT, Files
 
 ## Steps
 
@@ -21,5 +21,3 @@
 
 > ##### Notes:
 > > Remember, this is your own personal development. It is up to you whether to create the notes, provide little or great detail, or record something that will be useful in the future.  
-
-

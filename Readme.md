@@ -12,7 +12,7 @@
  * [**_ToDo_**](#todo)
  * [**_Contributing_**](#contributing)
  * [**_About_**](#about)
- 
+
 #### Project Status: WIP
 
 
@@ -28,7 +28,7 @@
     2. A folder for each thing
     3. Inside each folder is a Readme.md file with instructions a space for notes
 * As you work through the steps, take notes about what you are learning. (hints included)
-* Complete the project at the end 
+* Complete the project at the end
 * Start on another language!
 
 ##<a name="things"></a> A list of things to learn in any programming
@@ -41,11 +41,11 @@
 6. Looping Structures
 7. Functions / Subroutines / Methods
 7. Class Creation
-8. Working with STDIN and STDOUT
+8. Working with STDIN, STDOUT,and Files
 
 ##<a name="generator"></a> Using the generators
 
-* Perl: (a default install on Mac OS X and Linux) 
+* Perl: (a default install on Mac OS X and Linux)
 
 	`perl gen.pl <language>`
 * Bash: WIP
@@ -63,7 +63,7 @@
 ##<a name="contributing"></a>Contributing
 
  You can contribute by:
- 
+
  * Submitting new ideas (Issues)
  * Reporting bugs (Issues)
  * Providing general purpose projects that support the list of things to learn (Pull Request)
@@ -75,5 +75,4 @@
 > #### LearnTheseThings
 * **Purpose:** A way to learn the basics of a language, and keep nuggets of information as refreshers when needed.
 * **Notes? Why Notes?:** Because we forget things. Especially when we don't do them very often. I'v learned a few programming languages in the past, but due to not using them, I've mostly forgotten how to use them. I've started taking notes on everything now. If it seems useful, I create a secret gist.
-* **About Me:** [Hello I'm Gabar](www.gabar.us), Twitter: @Gabs00 
- 
+* **About Me:** [Hello I'm Gabar](www.gabar.us), Twitter: @Gabs00
