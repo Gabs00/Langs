@@ -1,6 +1,7 @@
-## Want to learn the basics of a new language?
+## WIP
+> ## Want to learn the basics of a new language?
 
-> Fork this repo and follow the below instructions! You will learn the basics and keep notes along the way. The notes will always be available when you need to reference them.
+> >Fork this repo and follow the below instructions! You will learn the basics and keep notes along the way. The notes will always be available when you need to reference them.
 
 ## Instructions
 
@@ -10,9 +11,9 @@
 * Run the generator to set up a directory for the language(See generator instructions)
 * Work through the list in the directory:
  * The languages directory contains:
-  1. Readme.md with the list of things to learn
-  2. A folder for each thing
-  3. Inside each folder is a Readme.md file with instructions a space for notes
+   1. Readme.md with the list of things to learn
+   2. A folder for each thing
+   3. Inside each folder is a Readme.md file with instructions a space for notes
 * As you work through the steps, take notes about what you are learning. (hints included)
 * Complete the project at the end 
 * Start on another language!
@@ -28,17 +29,6 @@
 7. Functions / Subroutines / Methods
 7. Class Creation
 8. Working with STDIN and STDOUT
-
-## Using the generators
-
-* Perl: (a default install on Mac OS X and Linux) 
-
-	`perl gen.pl <language>`
-* Bash: WIP
-* Python: WIP
-* Node: WIP
-* PowerShell: WIP
-* batch: WIP
 
 ## A Project that demonstrates all of the above
 
@@ -65,9 +55,22 @@
 
 * Delete and Update a Record and its fields
 
+## Using the generators
+
+* Perl: (a default install on Mac OS X and Linux) 
+
+	`perl gen.pl <language>`
+* Bash: WIP
+* Python: WIP
+* Node: WIP
+* PowerShell: WIP
+* batch: WIP
+
 
 ## To Do:
-1. Create Templates of all steps
+1. Create Readme's for each step
+2. Create test for generators
+3. Create `starter.json` with a few starter languages
 
 
 ##Template Directory Structure
