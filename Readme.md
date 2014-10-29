@@ -30,31 +30,6 @@
 7. Class Creation
 8. Working with STDIN and STDOUT
 
-## A Project that demonstrates all of the above
-
-### Create a phone directory:
-
-> Use all of the above to create a phone directory application
-
-#### Specs
-* Has a Record:
- * Has a name field with value string
- * Has a phone number field with value int
-
-* Has a list of Records
-
-* Set:
- * new Record, adds to list of Records
-
-* Get:
- * All Records
- * All Records with set S that is a subset of names with set N
- * All Records with set S that is a subset of phone number with set P
- * Name lookup with phone number as key
- * Phone number lookup with name as key
-
-* Delete and Update a Record and its fields
-
 ## Using the generators
 
 * Perl: (a default install on Mac OS X and Linux) 
