@@ -1,9 +1,22 @@
-## WIP
+
 > ## Want to learn the basics of a new language?
 
 > >Fork this repo and follow the below instructions! You will learn the basics and keep notes along the way. The notes will always be available when you need to reference them.
 
-## Instructions
+# LearnTheseThings
+
+> ####<a name="toc"></a> TOC:
+ * [**_Instructions_**](#instructions)
+ * [**_Basic Things to Learn_**](#things)
+ * [**_How To: Generator_**](#generators)
+ * [**_ToDo_**](#todo)
+ * [**_Contributing_**](#contributing)
+ * [**_About_**](#about)
+ 
+#### Project Status: [WIP]("Almost There")
+
+
+## <a name="instructions"></a>Instructions
 
 * Fork this repo
 * Find a programming language that you want to learn
@@ -18,7 +31,7 @@
 * Complete the project at the end 
 * Start on another language!
 
-## A list of things to learn in any programming
+##<a name="things"></a> A list of things to learn in any programming
 
 1. Setting up the environment (and other configy things)
 2. Variables and variable assignment
@@ -30,7 +43,7 @@
 7. Class Creation
 8. Working with STDIN and STDOUT
 
-## Using the generators
+##<a name="generator"></a> Using the generators
 
 * Perl: (a default install on Mac OS X and Linux) 
 
@@ -42,13 +55,25 @@
 * batch: WIP
 
 
-## To Do:
+##<a name="todo"></a> To Do:
 1. Create Readme's for each step
 2. Create test for generators
 3. Create `starter.json` with a few starter languages
 
+##<a name="contributing"></a>Contributing
 
-##Template Directory Structure
+ You can contribute by:
+ 
+ * Submitting new ideas (Issues)
+ * Reporting bugs (Issues)
+ * Providing general purpose projects that support the list of things to learn (Pull Request)
+ * Adding Additional Notes hints to the topic readmes (Pull Request)
+ * Emailing me about the topics, and your thoughts on them.
+ * _SPREADING THE WORD__
+
+##<a name="about"></a>About
+ 
+##<a name="template"></a>Template Directory Structure
 
 Each sub directory will have their info as a readme
 
