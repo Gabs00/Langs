@@ -11,9 +11,9 @@
 * Run the generator to set up a directory for the language(See generator instructions)
 * Work through the list in the directory:
  * The languages directory contains:
-   1. Readme.md with the list of things to learn
-   2. A folder for each thing
-   3. Inside each folder is a Readme.md file with instructions a space for notes
+    1. Readme.md with the list of things to learn
+    2. A folder for each thing
+    3. Inside each folder is a Readme.md file with instructions a space for notes
 * As you work through the steps, take notes about what you are learning. (hints included)
 * Complete the project at the end 
 * Start on another language!
