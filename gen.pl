@@ -35,12 +35,12 @@ for my $i ( 0 .. $#folderNames ) {
             copy t('P'), $readme;
         }
         else {
-            copy t( $i + 1 ), $readme;
+            copy t( $folderNames[$i] ), $readme;
         }
     }
 }
 
 sub t {
-    my $i = shift(@_);
-    return "./templates/$i.md";
+    my $n = shift(@_);
+    return "./templates/$n.md";
 }
