@@ -9,6 +9,8 @@ Those little nuances of most programming languages
 2. Scope
 3. Curly Brace Usage
 4. Language specific nuances
+5. Importing Libraries and Modules
+6. If the language uses namespacing.
 
 ### Useful Links
 ### Notes
