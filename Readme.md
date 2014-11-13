@@ -13,7 +13,7 @@
  * [**_Contributing_**](#contributing)
  * [**_About_**](#about)
 
-#### Project Status: WIP
+#### Project Status: View the original project [LearnTheseThings](https://github.com/Gabs00/LearnTheseThings) to fork 
 
 
 ## <a name="instructions"></a>Instructions
