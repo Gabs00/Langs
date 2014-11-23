@@ -3,44 +3,46 @@
 use strict;
 use warnings;
 use File::Copy;
+use JSON;
+use Data::Dumper;
 use autodie;
 
-my $lang = shift(@ARGV);
+my $lang = shift(@ARGV) || 'pie';
 
-#Requires a language to be passed in as a command line argument
-if ( !defined($lang) ) {
-    die "usage gen.pl <language_name>";
+#Read in template file
+open my $fh, '<', 'template.json';
+
+my $template;
+
+#slurp in the file contents
+{
+  local $/ = undef;
+  $template = JSON->new()->decode(<$fh>);
 }
 
-my $dir = "./$lang";
-if ( -e $dir ) {
-    die "Folder $lang already exists";
-}
-else {
-    mkdir $dir;
-    copy( t('Readme'), "$dir/Readme.md" );
-}
+my $subdirs = $template->{'directories'};
+my $mdDir = $template->{'mdDir'};
+my $langDirs = $template->{'langDir'};
+my $langPath = $langDirs . $lang;
 
-my @folderNames = qw(setup var prg data cond loop func class std project);
-
-for my $i ( 0 .. $#folderNames ) {
-    my $cDir   = $dir . '/' . $folderNames[$i];
-    my $readme = "$cDir/Readme.md";
-    if ( !-e $cDir ) {
-        mkdir $cDir;
-    }
-
-    if ( -e $cDir ) {
-        if ( $cDir =~ /project/ ) {
-            copy t('P'), $readme;
-        }
-        else {
-            copy t( $folderNames[$i] ), $readme;
-        }
-    }
+if(!-e $langDirs){
+  mkdir $langDirs;
 }
 
-sub t {
-    my $n = shift(@_);
-    return "./templates/$n.md";
+if(!-e $langPath){
+  mkdir $langPath;
+}
+
+copy($mdDir . 'Readme.md', $langPath . '/Readme.md');
+
+for my $dir( @{ $subdirs }){
+  my $path = $langPath . "/$dir";
+  if(!-e $path){
+    mkdir $path;
+  }
+  my $src = $mdDir . "/$dir" . '.md';
+  my $dest = $path . "/Readme.md\n";
+  copy($src, $dest);
+
+  print "Created $dest" if -e $dest;
 }
