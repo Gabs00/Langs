@@ -50,7 +50,9 @@
 	`perl gen.pl <language>`
 * Bash: WIP
 * Python: WIP
-* Node: WIP
+* Node: From within the project directory (Windows should use this)
+
+  `./node.exe gen.js`
 * PowerShell: WIP
 * batch: WIP
 

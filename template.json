@@ -1,0 +1,20 @@
+{
+  "name":null,
+  "langContents":{
+
+  },
+  "directories": [
+    "setup",
+    "var",
+    "prg",
+    "data",
+    "cond",
+    "loop",
+    "func",
+    "class",
+    "std",
+    "project"
+  ],
+  "mdDir": "templates/",
+  "langDir": "languages/"
+}
