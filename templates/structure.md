@@ -2,15 +2,16 @@
 
 Each sub directory will have their info as a readme
 
-* LANG DIR
- * ReadMe.md
- * SETUP DIR
- * VAR DIR
- * PROGRAMMING STRUCTURE DIR
- * DATA STRUCTURE DIR
- * CONDITIONAL DIR
- * LOOP DIR
- * FUNCTION DIR
- * CLASS DIR
- * STD* DIR
- * PROJECT DIR 
+* Languages dir
+  * LANG SPECIFIC DIR
+   * ReadMe.md
+   * SETUP DIR
+   * VAR DIR
+   * PROGRAMMING STRUCTURE DIR
+   * DATA STRUCTURE DIR
+   * CONDITIONAL DIR
+   * LOOP DIR
+   * FUNCTION DIR
+   * CLASS DIR
+   * STD* DIR
+   * PROJECT DIR
